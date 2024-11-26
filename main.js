@@ -35,7 +35,7 @@ const searchQuery = async (search) => {
         date.innerHTML = (new Date()).toLocaleDateString();
         temp.innerHTML = `${toCelcius(data.main.temp)}°C`;
         weather.innerHTML = data.weather[0].description;
-        range.innerHTML = `${toCelcius(data.main.temp_min)}°C - ${toCelcius(data.main.temp_max)}°C`;
+        range.innerHTML = `min.${toCelcius(data.main.temp_min)}°C - max.${toCelcius(data.main.temp_max)}°C`;
         img.src = iconUrl;
         card.style.visibility = "visible"
 
