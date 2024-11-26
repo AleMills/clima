@@ -50,7 +50,7 @@ body {
 .container-card {
     visibility: hidden;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0;
     padding: 2rem 6rem;
     color: white;
     width: 100%;
