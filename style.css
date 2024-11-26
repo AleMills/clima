@@ -1,0 +1,61 @@
+body {
+    background: #18181b;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container {
+    width: 23rem;
+}
+
+
+.title {
+    margin-top: 2rem;
+}
+
+.sun-icon {
+    font-size: 3rem;
+}
+
+
+#form {
+    margin-top: 2rem;
+}
+
+.input {
+    background-color: #3f3f46;
+    border: #3f3f46;
+}
+
+.input:focus {
+    background-color: #3f3f46;
+    color: white;
+}
+
+
+.btn {
+    margin-bottom: 1rem ;
+    border: 1px solid rgba(83, 83, 83, 0.603);
+    background-color: #3f3f46;
+    transition: all .5;
+}
+
+.btn:hover {
+    background-color: #27272a;
+    border: 1px solid #27272a;
+}
+
+
+
+.container-card {
+    visibility: hidden;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem 6rem;
+    color: white;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border: 1px solid #4b5563;
+    border-radius: 50%;
+}
